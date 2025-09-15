@@ -1,0 +1,32 @@
+Ejercicio: Crear un programa en consola que simule el funcionamiento de un cajero automático.
+
+Requisitos:
+
+1. El sistema debe mostrar un menú con las siguientes opciones:
+
+ 	1. Consultar saldo
+	2. Depositar dinero
+	3. Retirar dinero
+	4. Salir
+
+2. El saldo inicial del usuario será de $1.000.000 de pesos colombianos.
+
+3. Cuando el usuario elija una opción:
+
+    • Consultar saldo: mostrar el saldo actual.
+    • Depositar dinero: pedir el monto a depositar y sumarlo al saldo.
+    • Retirar dinero: pedir el monto a retirar y restarlo del saldo solo si hay suficiente dinero.
+    • Retirar dinero nunca debe permitir saldo negativo.
+    • Salir: terminar el programa con un mensaje de despedida.
+4. El menu debe repetirse hasta que el usuario elija la opción de salir.
+
+Chicos recuerden que la solución se hará en el entorno de trabajo correspondientes a su ruta de trabajo(c#, java, node, ts).
+
+Nivel extra.
+Agregar la opción 5. Avance de dinero con las siguientes reglas:
+    • El usuario puede pedir un monto como avance aunque no tenga saldo suficiente.
+    • Ese monto se suma a su saldo.
+    • Solo a través de la opción Avance de dinero el saldo puede quedar en negativo.
+Estado de moroso:
+    • Si en algún momento el saldo baja de 0, mostrar un mensaje de advertencia:
+	console.log(“Saldo negativo, recuerda pagar el avance anteriormente realizado”);

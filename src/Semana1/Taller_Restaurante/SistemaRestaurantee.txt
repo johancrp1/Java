@@ -1,0 +1,71 @@
+*Propuesta de Solucionl:
+
+
+Crear un sistema en consola que permite:
+
+
+1.Registrar a los clientes que van a comer.
+
+2.Mostrar el menú disponible.
+
+3.Calcular la cuenta antes de servir.
+
+4.Confirmar el pago antes de marcar al cliente como servido.
+
+5.Guardar la lista de clientes atendidos.
+
+
+*Con este sistema:
+
+- Se paga antes de servir.
+
+
+- Se registra quién comió.
+
+
+- Se evita que se escapen sin pagar.
+
+
+- Se muestra el menú siempre desde el sistema para que a la chica no se le olvide.
+
+
+* ¿Qué solución implementarías para que este restaurante sea más organizado?
+
+Para mejorar la organización del restaurante, implemente un sistema sencillo y práctico que permita a la persona que atiende 
+osea la chica, registrar cada cliente y controlar el proceso de pago y entrega del almuerzo.
+
+
+* ¿Cómo ayuda esta solución?
+
+Registro de clientes
+El sistema permite ingresar el nombre de cada cliente que llega. Esto ayuda a saber exactamente cuántos clientes fueron atendidos durante el día y quiénes son, lo que antes no se registraba y causaba pérdidas.
+
+Control del menú y precios: 
+El menú está claramente definido con cada plato y su precio. La persona que atiende puede seleccionar fácilmente el plato que pidió el cliente, evitando olvidos o confusiones sobre qué se pidió y cuánto cuesta.
+
+Control del pago: 
+El sistema obliga a registrar el monto pagado por el cliente y calcula el cambio que debe entregarse. De esta forma, se asegura que el almuerzo solo se sirva si el pago fue registrado correctamente, evitando que los clientes se escapen sin pagar
+
+
+Resumen al final del día: 
+Se genera un reporte con el total de clientes atendidos, lo que permite llevar un control más organizado de las ventas diarias y facilita el cierre del día
+
+
+* Herramientas y conceptos utilizados en el sistema del restaurante
+
+1. Estructura de control: while
+   - Utilice un bucle while para permitir que el sistema registre varios clientes de manera continua.
+
+2. Estructura de datos: LinkedHashMap
+   - La use para almacenar el menú como clave (nombre del plato) y valor (precio), manteniendo el orden de inserción.
+
+3. Arreglos (String[])
+   - USe un arreglo para guardar los nombres de los clientes que fueron atendidos.
+   - También Utilice un arreglo temporal para manejar la selección de platos por número.
+
+4. Entrada de datos: Scanner
+   - Permite ingresar desde teclado el nombre del cliente, la opción del menú y el monto pagado.
+
+5. Condicionales: if
+   - Las utilice para validar la opción del menú y controlar la continuidad del programa.
+

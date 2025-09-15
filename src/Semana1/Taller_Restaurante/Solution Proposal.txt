@@ -1,0 +1,73 @@
+*Solution Proposal:
+
+Create a console system that allows:
+
+Registering customers who will eat.
+
+Displaying the available menu.
+
+Calculating the bill before serving.
+
+Confirming payment before marking the customer as served.
+
+Saving the list of served customers.
+
+
+
+*With this system:
+
+- Payment is made before serving.
+
+- Registers who ate.
+
+- Prevents customers from leaving without paying.
+
+- Always shows the menu from the system so the waitress doesn't forget.
+
+
+
+*What solution would you implement to make this restaurant more organized?
+
+To improve the restaurant's organization, I implemented a simple and practical system that allows the person serving (the waitress) to register each customer and control the payment and lunch delivery process.
+
+
+
+*How does this solution help?
+
+Customer registration:
+The system allows entering the name of each customer that arrives. This helps to know exactly how many customers were served during the day and who they are, which wasn't recorded before and caused losses.
+
+Menu and pricing control:
+The menu is clearly defined with each dish and its price. The person serving can easily select the dish the customer ordered, avoiding forgetfulness or confusion about what was ordered and its cost.
+
+Payment control:
+The system requires entering the amount paid by the customer and calculates the change to be given. This ensures that lunch is only served if the payment has been correctly registered, preventing customers from leaving without paying.
+
+End-of-day summary:
+A report is generated with the total number of customers served, which helps keep a more organized daily sales record and makes closing the day easier.
+
+
+
+Tools and concepts used in the restaurant system:
+
+Control structure: while
+
+I used a while loop to allow the system to continuously register multiple customers.
+
+Data structure: LinkedHashMap
+
+I used this to store the menu as a key (dish name) and value (price), maintaining the insertion order.
+
+Arrays (String[])
+
+I used an array to store the names of the customers who were served.
+
+I also used a temporary array to handle the selection of dishes by number.
+
+Data input: Scanner
+
+Allows entering the customer’s name, menu option, and payment amount from the keyboard.
+
+Conditionals: if
+
+I used these to validate the menu option and control the flow of the program.
