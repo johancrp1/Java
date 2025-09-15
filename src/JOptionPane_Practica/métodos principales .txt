@@ -1,9 +1,0 @@
-métodos principales de JOptionPane:
-
-showMessageDialog(Component parent, Object message): Muestra un mensaje simple en un cuadro de diálogo.
-
-showInputDialog(Component parent, Object message): Muestra un cuadro de entrada donde el usuario puede escribir texto.
-
-showConfirmDialog(Component parent, Object message, String title, int optionType): Muestra un cuadro de diálogo de confirmación con opciones (Sí/No, Aceptar/Cancelar, etc.).
-
-showOptionDialog(Component parent, Object message, String title, int optionType, int messageType, Icon icon, Object[] options, Object initialValue): Muestra un cuadro de diálogo con opciones personalizadas.
